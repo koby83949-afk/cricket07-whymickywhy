@@ -18,6 +18,13 @@ async function getJSON(url) {
 async function setupTeams() {
   const teams = await getJSON('/teams.json');
   const modernPlayers = await getJSON('/modern_players.json');
+  teams.push({
+  abbr: 'MOD',
+  name: 'Modern Players',
+  colour: '#1f4e79',
+  accent: '#f2c14e',
+  players: modernPlayers.players.map(player => player.name)
+});
   const picker = byId('team-picker');
   const buttons = teams.map((team, index) => {
     const button = node('button');
