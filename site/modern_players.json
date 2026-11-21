@@ -1,0 +1,77 @@
+{
+
+  "players": [
+
+    {
+
+      "id": "modern_ind_001",
+
+      "name": "Virat Kohli",
+
+      "team": "India",
+
+      "role": "Batter",
+
+      "face": "assets/faces/virat-kohli.png"
+
+    },
+
+    {
+
+      "id": "modern_ind_002",
+
+      "name": "Rohit Sharma",
+
+      "team": "India",
+
+      "role": "Batter",
+
+      "face": "assets/faces/rohit-sharma.png"
+
+    },
+
+    {
+
+      "id": "modern_ind_003",
+
+      "name": "Jasprit Bumrah",
+
+      "team": "India",
+
+      "role": "Fast Bowler",
+
+      "face": "assets/faces/jasprit-bumrah.png"
+
+    },
+
+    {
+
+      "id": "modern_aus_001",
+
+      "name": "Pat Cummins",
+
+      "team": "Australia",
+
+      "role": "Fast Bowler",
+
+      "face": "assets/faces/pat-cummins.png"
+
+    },
+
+    {
+
+      "id": "modern_aus_002",
+
+      "name": "Steve Smith",
+
+      "team": "Australia",
+
+      "role": "Batter",
+
+      "face": "assets/faces/steve-smith.png"
+
+    }
+
+  ]
+
+}
