@@ -17,6 +17,7 @@ async function getJSON(url) {
 
 async function setupTeams() {
   const teams = await getJSON('/teams.json');
+  const modernPlayers = await getJSON('/modern_players.json');
   const picker = byId('team-picker');
   const buttons = teams.map((team, index) => {
     const button = node('button');
